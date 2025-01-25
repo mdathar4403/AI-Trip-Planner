@@ -14,13 +14,13 @@ const Hero = () => {
             </h1>
             <p className='text-xl text-gray500 text-center'>Your personal trip planner and travel curator, creating custom itineraties tailored to your interests and budget.</p>
 
-
             <Link to="/create-trip">
                 <Button>Get's Started</Button>
             </Link>
 
-            <img src="/landing.png" className="w-full -mt-20" alt="" />
-
+            <div>
+                <img src="/landing.png" className="w-full" alt="" />
+            </div>
         </div >
     )
 }
